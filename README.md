@@ -25,3 +25,12 @@ Juliet Koech
 * source virtual/bin/activate
 
 # installing dependacies
+pip install -r requirements
+
+# running test
+python3.7 manage.py test
+
+# running the development
+* python run.py
+* open the app on your browser 127.0.0.1:5000.
+* Deploying to heroku make sure you have requirements.txt
