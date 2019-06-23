@@ -4,14 +4,28 @@
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+
+ <link rel="stylesheet" href="{{url_for('static',filename='css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/mdb.min.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
+    <link href="{{url_for('static',filename='css/style.css')}}" rel="stylesheet">
+    <title> {{title}} </title>
+
 <body>
-    <nav class="test" style="background: #333;">
+    <nav class="test" style="background: #darkblue;">
         <h1 style="color: #fff;text-align: center;padding: 10px;"> HEROES NEWS</h1>
     </nav>
     <!-- <a class="navbar-brand" href="/"> Home </a> -->
     {% block content %}
 
     {% endblock %}
+
+       <footer class="page-footer unique-color-dark ">
+        <!--Social buttons-->
+        <div class="primary-color">
+            <div class="container">
+                <!--Grid row-->
+                <div class="row py-4 d-flex align-items-center">
 
     
 
