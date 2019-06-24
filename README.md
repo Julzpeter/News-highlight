@@ -34,3 +34,11 @@ python3.7 manage.py test
 * python run.py
 * open the app on your browser 127.0.0.1:5000.
 * Deploying to heroku make sure you have requirements.txt
+
+## Behavior Driven Development
+
+
+|Behavior                                       | Input                  | Output                                   |
+|-----------------------------------------------|------------------------|------------------------------------------| 
+| Dsiplay all articles based on a single source | ABC on input form      | Display all articles for ABC             |
+| Read an article on its url page               | Click Read more button | Redirect to respective articles homepage |
